@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+@font-face {
+    font-family: tan-nimbus;
+    src: url(../font/TAN-NIMBUS.ttf);
+}
+
+:root {
+    --primary-text-color: #fdb6c9;
+    --secondary-text-color: #fff8ed;
+    --tertiary-text-color: #E8CACE;
+    --primary-bg-color: #1e1d1f;
+    --secondary-bg-color: #515151;
+    --tertiary-bg-color: #FDF2DE;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+.nav-text-color {
+    color: var(--primary-text-color) !important;
+    font-family: Livvic, sans-serif;
+}
+
+#landing-page {
+    background-image: url(../img/background.jpg);
+    background-position: 25% 58%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: var(--primary-bg-color);
+}
+
+#landing-name h1 {
+    color: var(--primary-text-color);
+    font-size: 6.75rem;
+}
+
+#scroll-down {
+    color: var(--secondary-text-color);
+    font-size: 1.3125rem;
+    text-transform: uppercase;
+    font-family: Livvic, sans-serif;
+}
+
+h1 {
+    font-family: tan-nimbus, sans-serif;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: var(--primary-bg-color);
+    color: var(--secondary-text-color);
+    text-align: center;
+}
+
+#web-content {
+    background-color: var(--primary-bg-color);
+}
+
+.section-title {
+    font-size: 6.75rem;
+    color: var(--primary-text-color);
+}
+
+.section-subtitle {
+    font-size: 1.435rem;
+    font-family: Livvic, sans-serif;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+}
+
+.page-button {
+    font-family: Livvic, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.pagebutton-top {
+    background-color: var(--primary-text-color);
+}
+
+.pagebutton-bottom {
+    background-color: var(--secondary-text-color);
+}
+
+/* Socials Page */
+
+#socials-page {
+    background-color: var(--secondary-text-color);
+}
+
+.social-icon {
+    background-color: var(--tertiary-text-color);
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+
+/* Contacts Page */
+
+form {
+    font-family: 'Public Sans', sans-serif;
+}
+
+.input-color {
+    background-color: var(--tertiary-text-color) !important;
+    color: var(--secondary-text-color) !important;
+    border-radius: 2rem;
+}
+
+.form-ending {
+    font-family: 'Public Sans', sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 700;
+}
+
+/* Works Page */
+
+.carousel-container {
+    max-width: 50%;
+}
+
+/* About Page */
+
+#about-navigation {
+    background-color: var(--secondary-text-color);
+}
+
+#mia-picture-1 {
+    width: 100%;
+    border-radius: 50%;
+}
+
+#introduction {
+    background-image: linear-gradient(var(--secondary-text-color) 30%, var(--secondary-bg-color) 10%);
+    border-radius: 1rem;
+}
+
+.introduction-statement {
+    font-size: 4.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--tertiary-text-color)
+}
+
+.sub-section {
+    font-family: tan-nimbus, sans-serif;
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin: 0.5rem;
+    border-radius: 10%;
+}
+
+.sub-odd {
+    background-color: var(--primary-bg-color);
+    color: var(--secondary-text-color);
+}
+
+.sub-even {
+    background-color: var(--primary-text-color);
+    color: var(--primary-bg-color);
+}
+
+/* Personal Information Sub-section */
+
+#personal-information {
+    background-color: var(--primary-bg-color);
+}
+
+#mia-picture-2 {
+    width: 80%;
+    border-radius: 10%;
+}
+
+#information {
+    background-color: var(--primary-text-color);
+    border-radius: 3rem 0 0 3rem;
+}
+
+.sub-heading {
+    background-color: var(--secondary-text-color);
+
+    border-radius: 3rem 0 0 3rem;
+}
+
+.sub-heading h1 {
+    font-family: Livvic, sans-serif;
+    font-size: 3.75rem;
+}
+
+.info {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.info-label {
+    background-color: var(--secondary-bg-color);
+    color: var(--secondary-text-color);
+}
+
+.info-value {
+    background-color: var(--secondary-text-color);
+    color: var(--primary-bg-color);
+}
+
+/* Education sub-section */
+#education {
+    background-color: var(--primary-text-color);
+}
+
+.title-color {
+    color: var(--primary-bg-color)
+}
+
+.school-logo {
+    width: 25%;
+    background-color: var(--secondary-text-color);
+    padding: 0.8rem;
+    border-radius: 50%;
+    margin-bottom: -2rem;
+    z-index: 1;
+}
+
+.school-history {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    background-color: var(--secondary-bg-color);
+    color: var(--secondary-text-color);
+    height: 20rem;
+    width: 20rem;
+    border-radius: 10%;
+}
+
+.school-year {
+    font-weight: bolder;
+}
+
+.attainment {
+    font-style: italic;
+}
+
+.school-name {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1rem;
+    background-color: var(--primary-bg-color);
+    color: var(--secondary-text-color);
+    text-transform: uppercase;
+}
+
+/* Famliy Sub-section */
+
+#family {
+    background-color: var(--primary-bg-color);
+}
+
+.family-members {
+    height: 37.5% !important;
+}
+
+.family-images {
+    border-radius: 50%;
+    border: 1rem solid var(--primary-text-color);
+    max-width: 11rem;
+}
+
+.family-desc {
+    font-family: 'Public Sans', sans-serif;
+    color: var(--secondary-text-color);
+}
+
+.fullname,
+.nickname {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.role {
+    font-style: italic;
+}
+
+/* Interests Sub-section */
+#interest {
+    background-color: var(--primary-bg-color);
+}
+
+.title-color-secondary {
+    color: var(--secondary-text-color)
+}
+
+.interest-item {
+    background-color: var(--tertiary-text-color);
+    color: var(--primary-bg-color);
+    padding: 3.75rem;
+    border-radius: 50%;
+}
+
+.interest-name {
+    color: var(--secondary-text-color);
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 0 !important;
+}
+
+/* Hobby Section */
+
+#hobby {
+    background-color: var(--primary-text-color);
+}
+
+.hobby-item {
+    padding: 1.1rem;
+    border-radius: 50%;
+    background-color: var(--secondary-bg-color);
+    color: var(--secondary-text-color);
+    margin-bottom: -4rem;
+    z-index: 1;
+}
+
+.hobby-activity {
+    font-family: 'Public Sans', sans-serif;
+    background-color: var(--secondary-text-color);
+    color: var(--primary-bg-color);
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: 2rem;
+    padding: 4rem;
+    border-radius: 2rem;
+    font-weight: bolder;
+}
+
+/* Favorite Section */
+#favorite {
+    background-color: var(--primary-text-color);
+}
+
+.custom-title-size {
+    font-size: 12rem;
+    color: var(--primary-bg-color);
+}
+
+.category {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin: 0;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.favorite-item {
+    background-color: var(--tertiary-bg-color);
+    font-weight: bolder;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-width: 13rem;
+    max-width: 14rem;
+    text-align: center;
+    text-transform: uppercase;
+}

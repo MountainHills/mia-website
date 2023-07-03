@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mia's Portfolio - Contacts</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-dark">
+        <div class="container-fluid">
+            <span class="navbar-text"></span>
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+            </a>
+        </div>
+    </nav>
+
+    <div class="containter-fluid vh-100 d-flex flex-column justify-content-center align-items-center">
+        <h1 class="section-title animate__animated animate__fadeInDown" style="color: black;">Contacts</h1>
+
+        <form id="contact-form animate__animated animate__fadeInDown" class="w-50">
+            <div class="form-floating mb-3">
+                <input type="text" class="input-color form-control" id="name" name="name" placeholder="Enter name">
+                <label for="name" class="label-color form-label">Name</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input type="email" class="input-color form-control" id="email" name="email"
+                    aria-describedby="emailHelp" placeholder="Enter email">
+                <label for="email" class="label-color form-label">Email address</label>
+                <div id="emailHelp" class="form-text">I will never share your email with anyone else.</div>
+            </div>
+            <div class="form-floating mb-3">
+                <textarea class="input-color form-control" id="exampleFormControlTextarea1" style="height: 10rem"
+                    placeholder="Enter message"></textarea>
+                <label for="exampleFormControlTextarea1" class="label-color form-label">Message</label>
+            </div>
+        </form>
+
+        <div class="container-fluid d-flex justify-content-center align-items-center animate__animated animate__fadeInUp">
+            <input type="image" style="width: 3rem;" form="contact-form" src="img/send.png" alt="Submit Button">
+        </div>
+        <p class="form-ending mt-1 animate__animated animate__fadeInUp">Let's stay in touch</p>
+
+    </div>
+
+    <footer class="container-fluid d-flex h-100 justify-content-center align-items-center border-top p-3">
+        © Copyright 2023. Junnie May Vidamo
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
