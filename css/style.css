@@ -374,3 +374,11 @@ form {
     text-align: center;
     text-transform: uppercase;
 }
+
+/* Back to top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
